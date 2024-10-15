@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Font Awesome Icon Library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    img {
+  float: left;
+  position: absolute;
+  left: 50px;
+  top: 100px;
+  z-index: -3;
+}
+h1 {text-align: center;
+    font-size: 70px;}
+h2 {text-align: right;
+    font-size: 50px;}
+h3 {text-align: right;
+  font-size: 15px;}
+p {text-align: center;
+  font-size : 10px}
+div {text-align: right;}
+body {
+  font-family: 'Courier New', monospace;
+}
+img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+</style>
+
+<body style="background-color:rgb(193, 176, 230);"> 
+  <h1 style="color:rgb(114, 89, 194);">DISNEY ZOOTOPIA SERIES</h1>
+  <img src="assets/figure4.png" alt="figure" width="500" height="500">
+  <p id="demo"><img src="assets/zuto box.png" alt="box" width="600" height="600">
+    <button onclick="myFunction()">OPEN BOX!</button>
+<h2 style="color:rgb(109, 94, 147);">Ice Cream Elephant</h2>
+<h3 style="color:rgb(109, 94, 147);">For my 20th birthday, a friend gave me a figure I had wanted for months.</h3>
+<h3 style="color:rgb(109, 94, 147);">Opening it with my friends made the moment even more exciting.</h3>
+<h3 style="color:rgb(109, 94, 147);">When we saw the figure, its bright, vivid colors left everyone speechless! it was cuter than I had imagined.</h3>
+<h3 style="color:rgb(109, 94, 147);">Though I wished it had come as a set, adjusting its display was a small price to pay.</h3>
+<h3 style="color:rgb(109, 94, 147);">Though I wished it had come as a set, adjusting its display was little difficult than other figures.</h3>
+<h3 style="color:rgb(109, 94, 147);">. Its closed eyes and playful design made it one of my favorite gifts, capturing a perfect moment.</h3>
+<br>
+<h3 style="color:rgb(109, 94, 147);">My rate &starf; &starf; &starf; &starf; &star;</h3>
+<button onclick="history.back()">Go Back</button>
+<script>
+    function myFunction() {
+      const element = document.getElementById("demo");
+      element.remove();
+    }
+    </script>    
+</body>
+</html>
