@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Lilita One', sans-serif;
+    background-image: url(bg.jpeg);
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  .header {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .div {
+    text-align: center;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #00000000;
+    text-align: center;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 24px 26px;
+    text-decoration: none;
+    text-align: center;
+
+  }
+  
+  .topnav a:hover {
+    background-color: #ffffff;
+    color: rgba(0, 0, 0, 0);
+    text-align: center;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+  }
+  
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+    float: center;
+  }
+  
+
+.column {
+  float: center;
+  width: 15%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
